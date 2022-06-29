@@ -204,11 +204,12 @@ def handle_directional_input(new_room, directions_to_leave):
     global player_dict
 
     if len(new_room['enemies']) == 0:
-        pass
+        print('--------------------------------------')
     elif len(new_room['enemies']) == 1:
         print('--------------------------------------')
         print('There is a ' + new_room['enemies'][0] + ' in the room with you.')
     elif len(new_room['enemies']) >= 2:
+        print('--------------------------------------')
         for x in new_room['enemies']:
             print('There is a ' + x +' in the room.')
 
