@@ -17,7 +17,7 @@ dict_of_all_rooms = {1: (0,0)}
 list_of_existing_coordinates = [(0,0)]
 
 # player
-player_dict = {'name': 'Jonathan Goldtooth', 'description': 'A hero.', 'attack': 7, 'speed': 5, 'health': 70, 'equipped': 'dagger'}
+player_dict = {'name': 'Jonathan Goldtooth', 'description': 'A hero.', 'attack': 7, 'speed': 5, 'health': 30, 'equipped': 'dagger'}
 
 # inventory - holds coins/items used to calculate score
 inventory = ['a rusty dagger']
