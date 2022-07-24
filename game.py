@@ -2,7 +2,6 @@ import random
 
 
 # setting up some global variables...
-dict_of_rooms = {}
 room_number = 1
 player_position = room_number
 x_coord = 0
@@ -55,7 +54,7 @@ usable_items = ['healing potion', 'mystery herb']
 # placeholder
 item_description = ''
 
-# generating a room in the dungeon - creates a room and then adds it to the dict_of_rooms
+# generating a room in the dungeon 
 def room_gen(previous_room):
     global player_dict
     global usable_inventory
